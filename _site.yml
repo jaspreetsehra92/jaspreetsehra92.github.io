@@ -1,14 +1,15 @@
 name: "Company Website"
 output_dir: "."
 navbar:
-  title: "BS Brothers"
+  title: "B.S. Brothers"
   left:
     - text: "About"
       icon: fa-gear
-      href: about.html
       menu:
         - text: "About"
-          href: about.html
+          href: index.html
+    - text: "About"
+      href: about.html
     - text: "Services"
       href: services.html
     - text: "Materials"
