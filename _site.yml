@@ -4,13 +4,13 @@ navbar:
   title: "B.S. Brothers"
   left:
     - text: "About"
+      href: about.html
+    - text: "More"
       icon: fa-gear
       href: index.html
       menu:
         - text: "Home"
           href: index.html
-    - text: "Word from the Proprietor"
-      href: about.html
     - text: "Services"
       href: services.html
     - text: "Materials"
