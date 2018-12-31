@@ -6,9 +6,9 @@ navbar:
     - text: "About"
       icon: fa-gear
       menu:
-        - text: "About"
+        - text: "Home"
           href: index.html
-    - text: "About"
+    - text: "Word from the Proprietor"
       href: about.html
     - text: "Services"
       href: services.html
