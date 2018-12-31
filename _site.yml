@@ -1,7 +1,7 @@
-name: "jas Website"
+name: "Company Website"
 output_dir: "."
 navbar:
-  title: "BSB Brothers"
+  title: "B. S. Brothers"
   left:
     - text: "Home"
       href: index.html
@@ -9,7 +9,7 @@ navbar:
       href: about.html
 output:
  html_document:
-  theme: cosmo
+  theme: Superhero
   highlight: textmate
   include:
     after_body: footer.html
