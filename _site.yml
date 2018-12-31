@@ -1,15 +1,24 @@
 name: "Company Website"
 output_dir: "."
 navbar:
-  title: "B. S. Brothers"
+  title: "BS Brothers"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About Me"
+    - text: "About"
+      icon: fa-gear
       href: about.html
+      menu:
+        - text: "About"
+          href: about.html
+    - text: "Services"
+      href: services.html
+    - text: "Materials"
+      href: materials.html
+  right:
+    - text: "Contact Us"
+      href: contact.html
 output:
  html_document:
-  theme: Superhero
+  theme: flatly
   highlight: textmate
   include:
     after_body: footer.html
