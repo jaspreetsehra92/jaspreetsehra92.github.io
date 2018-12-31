@@ -5,6 +5,7 @@ navbar:
   left:
     - text: "About"
       icon: fa-gear
+      href: index.html
       menu:
         - text: "Home"
           href: index.html
