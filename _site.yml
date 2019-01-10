@@ -20,8 +20,8 @@ navbar:
       href: contact.html
 output:
  html_document:
-  theme: flatly
-  highlight: textmate
+  theme: sandstone
+  highlight: monochrome
   include:
     after_body: footer.html
   css: style.css

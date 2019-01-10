@@ -15,31 +15,14 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
 
 
 
@@ -108,33 +91,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 60px;
+  padding-top: 61px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .dropdown-submenu {
   position: relative;
@@ -323,7 +306,89 @@ $(document).ready(function () {
 </div>
 
 
-<p><br> <b>Phone: +91-9811-032-820 <br> Email: <a href="mailto:bsbrothers@gmail.com">bsbrothers@gmail.com</a> </b><br></p>
+<p><br> <b>Phone: +91-9811-032-820 <br> Email: <a href="mailto:bsbrothers@gmail.com">bsbrothers@gmail.com</a> </b><br> <br> <br></p>
+<form action="https://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);" target="_top">
+<input name="skip_WhereToSend" type="hidden" value="jaspreet.singh@absolutdata.com" /> <input name="skip_SnapHostID" type="hidden" value="3N47RMJZXJUN" /> <input name="skip_WhereToReturn" type="hidden" value="https://jaspreetsehra92.github.io/" /> <input name="skip_Subject" type="hidden" value="Online Request" /> <input name="skip_ShowUsersIp" type="hidden" value="1" /> <input name="skip_SendCopyToUser" type="hidden" value="1" />
+<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
+if (frm.FromEmailAddress.value == "") {alert('Email address is required.');frm.FromEmailAddress.focus();return false;}
+if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
+if (frm.Comments.value == "") {alert('Please enter comments or questions.');frm.Comments.focus();return false;}
+if (frm.skip_CaptchaCode.value == "") {alert('Enter web form code.');frm.skip_CaptchaCode.focus();return false;}
+return true; }
+function ReloadCaptchaImage(captchaImageId) {
+var obj = document.getElementById(captchaImageId);
+var src = '' + obj.src;
+obj.src = '';
+var date = new Date();
+var pos = src.indexOf('&rad=');
+if (pos >= 0) { src = src.substr(0, pos); }
+obj.src = src + '&rad=' + date.getTime();
+return false; }
+</script>
+<table border="0" cellpadding="5" cellspacing="0" width="600">
+<tr>
+<td>
+<b>Name*:</b>
+</td>
+<td>
+<input name="Name" type="text" maxlength="60" style="width:350px;" />
+</td>
+</tr>
+<tr>
+<td>
+<b>Phone number:</b>
+</td>
+<td>
+<input name="PhoneNumber" type="text" maxlength="43" style="width:350px;" />
+</td>
+</tr>
+<tr>
+<td>
+<b>Email address*:</b>
+</td>
+<td>
+<input name="FromEmailAddress" type="text" maxlength="60" style="width:350px;" />
+</td>
+</tr>
+<tr>
+<td>
+<b>Comments and questions*:</b>
+</td>
+<td>
+<textarea name="Comments" rows="7" cols="40" style="width:350px;">
+</textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<br />
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td colspan="2" style="padding-bottom:18px;">
+<!-- Please check our ProCaptcha service which is ad-free:
+https://www.SnapHost.com/captcha/ProCaptchaOverview.aspx -->
+<a href="http://www.snaphost.com/captcha/TellFriend.aspx" alt="referral form sample" title="referral form sample"> referral form sample</a>
+</td>
+</tr>
+<tr valign="top">
+<td>
+<i>Enter web form code*:</i> <input name="skip_CaptchaCode" type="text" style="width:80px;" maxlength="6" />
+</td>
+<td>
+<a href="https://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx"><img id="CaptchaImage" alt="Contact Us form" title="HTML code for Contact Us form"
+style="margin-left:20px;"
+src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=3N47RMJZXJUN&ImgType=2" /></a><br /> <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span style="font-size:12px;">reload image</span></a>
+</td>
+</tr>
+</table>
+<br /> * - required fields.               <input name="skip_Submit" type="submit" value="Submit" />
+</td>
+</tr>
+</table>
+<br />
+</form>
 
 <p>Copyright &copy; 2019 B. S. Brothers, Inc. All rights reserved.</p>
 
