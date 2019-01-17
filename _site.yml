@@ -1,7 +1,7 @@
 name: "Company Website"
 output_dir: "."
 navbar:
-  title: "B.S. Brothers"
+  title: B S Brothers
   left:
     - text: "About"
       href: about.html

@@ -1,15 +1,15 @@
 ---
 title: "Contact Info"
 ---
-<br> <b>Phone:  +91-9811-032-820
-<br> Email:  bsbrothers@gmail.com </b><br>
+<br> <b>Phone:</b>  +91-9811-032-820
+<br> <b>Email:</b>  bsbrothers@gmail.com<br>
 <br>
 <br>
 
 <form action="https://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);" target="_top">
 <input name="skip_WhereToSend" type="hidden" value="jaspreet.singh@absolutdata.com" />
 <input name="skip_SnapHostID" type="hidden" value="3N47RMJZXJUN" />
-<input name="skip_WhereToReturn" type="hidden" value="https://jaspreetsehra92.github.io/contact.html" />
+<input name="skip_WhereToReturn" type="hidden" value="https://jaspreetsehra92.github.io/index.html" />
 <input name="skip_Subject" type="hidden" value="Online Request" />
 <input name="skip_ShowUsersIp" type="hidden" value="1" />
 <input name="skip_SendCopyToUser" type="hidden" value="1" />
@@ -33,16 +33,16 @@ return false; }
 </script>
 <table border="0" cellpadding="5" cellspacing="0" width="600">
 <tr>
-<td><b>Name*</b></td>
+<td>Name*</b></td>
 <td><input name="Name" type="text" maxlength="60" style="width:350px;" /></td>
 </tr><tr>
-<td><b>Phone number</b></td>
+<td>Phone number</b></td>
 <td><input name="PhoneNumber" type="text" maxlength="43" style="width:350px;" /></td>
 </tr><tr>
-<td><b>Email address*</b></td>
+<td>Email address*</b></td>
 <td><input name="FromEmailAddress" type="text" maxlength="60" style="width:350px;" /></td>
 </tr><tr>
-<td><b>Comments and questions*</b></td>
+<td>Comments*</b></td>
 <td><textarea name="Comments" rows="7" cols="40" style="width:350px;"></textarea></td>
 </tr><tr>
 <td colspan="2" align="center"> <br />
@@ -57,14 +57,11 @@ style="margin-left:20px;"
 src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=3N47RMJZXJUN&ImgType=2" /></a><br />
 <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span style="font-size:12px;">reload image</span></a> </td></tr>
 </table> <br />
-* required fields. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+* required fields &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <input name="skip_Submit" type="submit" value="Submit" />
 </td></tr>
 </table><br />
 </form>
-<<<<<<< HEAD
-<br>
-=======
 
 <br><br>
 
@@ -78,4 +75,9 @@ src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=3N47RMJZXJUN&ImgType=
 
 </body>
 </html>
->>>>>>> d2a5e698a739718977733ebd7a688fcfbda760d3
+
+<br> <br> <br>
+```{r echo=FALSE, fig.height=4, fig.width=6, message=FALSE, warning=FALSE, paged.print=FALSE}
+leaflet(data = quakes[1:20,]) %>% addTiles() %>%
+    addMarkers(~long, ~lat, popup = ~as.character(mag), label = ~as.character(mag))
+```
