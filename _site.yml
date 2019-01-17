@@ -11,6 +11,8 @@ navbar:
       menu:
         - text: "Home"
           href: index.html
+    - text: "Products"
+      href: Products.html
     - text: "Services"
       href: services.html
     - text: "Materials"

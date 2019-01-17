@@ -282,6 +282,9 @@ $(document).ready(function () {
   </ul>
 </li>
 <li>
+  <a href="Products.html">Products</a>
+</li>
+<li>
   <a href="services.html">Services</a>
 </li>
 <li>
@@ -308,7 +311,7 @@ $(document).ready(function () {
 
 <p><br> <b>Phone: +91-9811-032-820 <br> Email: <a href="mailto:bsbrothers@gmail.com">bsbrothers@gmail.com</a> </b><br> <br> <br></p>
 <form action="https://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);" target="_top">
-<input name="skip_WhereToSend" type="hidden" value="jaspreet.singh@absolutdata.com" /> <input name="skip_SnapHostID" type="hidden" value="3N47RMJZXJUN" /> <input name="skip_WhereToReturn" type="hidden" value="https://jaspreetsehra92.github.io/" /> <input name="skip_Subject" type="hidden" value="Online Request" /> <input name="skip_ShowUsersIp" type="hidden" value="1" /> <input name="skip_SendCopyToUser" type="hidden" value="1" />
+<input name="skip_WhereToSend" type="hidden" value="jaspreet.singh@absolutdata.com" /> <input name="skip_SnapHostID" type="hidden" value="3N47RMJZXJUN" /> <input name="skip_WhereToReturn" type="hidden" value="https://jaspreetsehra92.github.io/contact.html" /> <input name="skip_Subject" type="hidden" value="Online Request" /> <input name="skip_ShowUsersIp" type="hidden" value="1" /> <input name="skip_SendCopyToUser" type="hidden" value="1" />
 <script type="text/javascript">
 function ValidateForm(frm) {
 if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
@@ -316,7 +319,7 @@ if (frm.FromEmailAddress.value == "") {alert('Email address is required.');frm.F
 if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
 if (frm.Comments.value == "") {alert('Please enter comments or questions.');frm.Comments.focus();return false;}
 if (frm.skip_CaptchaCode.value == "") {alert('Enter web form code.');frm.skip_CaptchaCode.focus();return false;}
-return true; }
+return alert('Thank You for Submitting the Form!'); }
 function ReloadCaptchaImage(captchaImageId) {
 var obj = document.getElementById(captchaImageId);
 var src = '' + obj.src;
@@ -330,7 +333,7 @@ return false; }
 <table border="0" cellpadding="5" cellspacing="0" width="600">
 <tr>
 <td>
-<b>Name*:</b>
+<b>Name*</b>
 </td>
 <td>
 <input name="Name" type="text" maxlength="60" style="width:350px;" />
@@ -338,7 +341,7 @@ return false; }
 </tr>
 <tr>
 <td>
-<b>Phone number:</b>
+<b>Phone number</b>
 </td>
 <td>
 <input name="PhoneNumber" type="text" maxlength="43" style="width:350px;" />
@@ -346,7 +349,7 @@ return false; }
 </tr>
 <tr>
 <td>
-<b>Email address*:</b>
+<b>Email address*</b>
 </td>
 <td>
 <input name="FromEmailAddress" type="text" maxlength="60" style="width:350px;" />
@@ -354,7 +357,7 @@ return false; }
 </tr>
 <tr>
 <td>
-<b>Comments and questions*:</b>
+<b>Comments and questions*</b>
 </td>
 <td>
 <textarea name="Comments" rows="7" cols="40" style="width:350px;">
@@ -367,14 +370,12 @@ return false; }
 <table border="0" cellpadding="0" cellspacing="0">
 <tr>
 <td colspan="2" style="padding-bottom:18px;">
-<!-- Please check our ProCaptcha service which is ad-free:
-https://www.SnapHost.com/captcha/ProCaptchaOverview.aspx -->
-<a href="http://www.snaphost.com/captcha/TellFriend.aspx" alt="referral form sample" title="referral form sample"> referral form sample</a>
+</a>
 </td>
 </tr>
 <tr valign="top">
 <td>
-<i>Enter web form code*:</i> <input name="skip_CaptchaCode" type="text" style="width:80px;" maxlength="6" />
+<i>Enter the captcha code*</i> <input name="skip_CaptchaCode" type="text" style="width:80px;" maxlength="6" />
 </td>
 <td>
 <a href="https://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx"><img id="CaptchaImage" alt="Contact Us form" title="HTML code for Contact Us form"
@@ -383,12 +384,13 @@ src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=3N47RMJZXJUN&ImgType=
 </td>
 </tr>
 </table>
-<br /> * - required fields.               <input name="skip_Submit" type="submit" value="Submit" />
+<br /> * required fields.               <input name="skip_Submit" type="submit" value="Submit" />
 </td>
 </tr>
 </table>
 <br />
 </form>
+<p><br></p>
 
 <p>Copyright &copy; 2019 B. S. Brothers, Inc. All rights reserved.</p>
 
